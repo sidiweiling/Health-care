@@ -1,0 +1,207 @@
+.ydc-content-slide {
+    position: relative;
+    width: 1180px;
+    margin: 20px auto;
+    -webkit-transform: translate3d(0,30px,0);
+    transform: translate3d(0,30px,0);
+    -webkit-transition: opacity .5s,-webkit-transform .5s;
+    transition: opacity .5s,-webkit-transform .5s;
+    transition: transform .5s,opacity .5s;
+    transition: transform .5s,opacity .5s,-webkit-transform .5s;
+    opacity: 1;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+}
+.ydc-body .menu {
+    min-height: 1300px;
+    height: 100%;
+    background: #f4f4f4;
+    border-radius: 8px;
+    padding: 33px 0 50px;
+    color: #333;
+    letter-spacing: 1px;
+}
+.ydc-flex{
+	margin-left: -10px;
+	margin-right: -10px;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-ms-flex-flow: row wrap;
+	-webkit-flex-flow: row wrap;
+	flex-flow: row wrap;
+}
+.ydc-column {
+    -ms-flex: 1 1 0px;
+    -webkit-flex: 1 1 0%;
+    flex: 1 1 0%;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative;
+    max-width: 100%
+}
+.ydc-column-2 {
+    -ms-flex: 0 0 20.83333%;
+    -webkit-flex: 0 0 20.83333%;
+    flex: 0 0 20.83333%;
+    max-width: 20.83333%
+}
+.ydc-column-8 {
+    -ms-flex: 0 0 79.16667%;
+    -webkit-flex: 0 0 79.16667%;
+    flex: 0 0 79.16667%;
+    max-width: 79.16667%
+}
+
+.ydc-menu {
+    min-width: 150px;
+    min-height: 1300px;
+    height: 100%;
+    background: #f4f4f4;
+    padding: 33px 0 50px;
+    color: #333;
+    letter-spacing: 1px;
+    border-radius: 2px;
+}
+li{
+    list-style: none;
+}
+.ydc-menu .ydc-menu-item a {
+    display: block;
+    width: 100%;
+    padding: 10px 0 10px 0px;
+    line-height: 20px;
+    position: relative;
+    font-size: 14px;
+}
+a {
+	color: #666;
+	text-decoration: none;
+	-webkit-transition: color .3s;
+	transition: color .3s;
+}
+.ydc-menu .ydc-menu-item a:hover {
+    background: #ff6565;
+    color: #fff;
+}
+.ydc-menu-sub-title {
+    padding: 10px 0 10px 0px;
+    color: #999;
+    border-top: 1px solid #ddd;
+    margin-top: 15px;
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    line-height: 22px;
+    font-size: 16px;
+}
+ul,li{
+    margin:0;
+    padding:0;
+}
+i{
+    font-style: normal;
+}
+.ydc-release-tab-head {
+    position: relative;
+}
+.ydc-tabPanel-release ul {
+    background: none;
+    border-bottom: 2px solid #d0d0d0;
+}
+.ydc-tabPanel ul {
+    height: 44px;
+    border-bottom: 1px solid #d0d0d0;
+    line-height: 44px;
+}
+.ydc-tabPanel-release .hit {
+    border-bottom: 2px solid #ff5f5f;
+    cursor: pointer;
+    color: #ff5f5f;
+    background: none;
+    background: -moz-linear-gradient(top, #e1e1e1, #fff);
+    font-size: 16px;
+}
+.ydc-tabPanel ul li {
+    float: left;
+    margin: 0 2px 0 0;
+    font-size: 14px;
+    height: 44px;
+    line-height: 45px;
+    width: 111px;
+    text-align: center;
+    cursor: pointer;
+    background: -moz-linear-gradient(top, #eee, #ddd);
+}
+.ydc-pane {
+    background-color: #fff;
+    padding: 20px 0;
+}
+.ydc-pane-clear .ydc-reg-form-group{
+    margin-bottom:0;
+}
+.ydc-reg-form-group label{
+    padding-right: 5px;
+    font-size: 16px;
+    color: #333;
+    text-align: right;
+    white-space: nowrap;
+    width: 255px;
+    float: left;
+    margin-bottom: 0;
+    padding-top: 9px;
+    padding-left: 10px;
+}
+.clearfix::after {
+	clear: both;
+	content: ".";
+	display: block;
+	height: 0;
+	visibility: hidden;
+}
+
+.ydc-reg-form-input{
+    width: 350px;
+    white-space: nowrap;
+    float: left;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+    min-height: 1px;
+    box-sizing: border-box;
+}
+.ydc-pane-clear .ydc-reg-form-input label{
+    padding-top: 9px;
+    line-height: 22px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    color: #a2a2a2;
+    width: 100%;
+    font-size: 14px;
+    text-align: left;
+}
+.ydc-reg-form-button{
+    margin-left: 355px;
+    /* width: 83.33333333%; */
+    float: left;
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.ydc-reg-form-button a{
+    color: #ffffff;
+    background-color: #009999;
+    border-color: #009999;
+    font-size: 14px;
+    width: 101px;
+    display:block;
+    box-sizing: content-box;
+    transition: all .2s;
+    padding: 10px 12px;
+    border-radius:3px;
+}
+*{
+    box-sizing: border-box;
+}
